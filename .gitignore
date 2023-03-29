@@ -21,3 +21,42 @@
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
+
+
+
+
+dist
+**/target
+**/.classpath
+**/.project
+**/.settings
+**/.gitignore
+**/.flattened-pom.xml
+*/mvn-bin/
+*/mvn-test-bin/
+**~
+.flattened-pom.xml
+
+### Eclipse ###
+
+.metadata
+bin/
+tmp/
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.settings/
+.loadpath
+.recommenders
+.dbbeaver/
+
+# External tool builders
+.externalToolBuilders/
+
+### IntelliJ ###
+
+\.idea/
+
+*.iml
